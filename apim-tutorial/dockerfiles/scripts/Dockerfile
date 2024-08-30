@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM farzadras/alpine:3.7
 # install curl
 RUN apk --no-cache add curl jq
 

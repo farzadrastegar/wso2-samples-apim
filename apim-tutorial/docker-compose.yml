@@ -76,7 +76,7 @@ services:
       mem_reservation: 128M
       cpus: 1
     db:
-      image: mysql:8.0.23
+      image: farzadras/mysql:8.0.23
       ports:
         - 8083:3306
       command: --init-file /data/application/init.sql
